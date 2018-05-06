@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `quotes`;
 CREATE TABLE quotes (
 	id BIGINT NOT NULL AUTO_INCREMENT,
 	user_name varchar(255) NOT NULL,
